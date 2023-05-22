@@ -1,17 +1,28 @@
 <html>
   <head>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
   </head>
   <body>
-    <div>
+    <div id="top">
       <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="instagramlogo">
-      <input type="search" value="검색">
-      <input type="file">
+      <input type="search" value="🍳검색">
+      <div>
+        <i class="fas fa-home"></i>
+        <i class="fas fa-paper-plane"></i>
+        <i class="fas fa-compass"></i>
+        <i class="fas fa-heart"></i>
+      </div>
     </div>
     <div id="profile">
-      <img src="./image/profile.jpg" alt="프로필사진" width="50px">
-      <div>
-        <h2>pns</h2>
+      <div id="profile_pic">
+        <img class="circle_pic" src="./image/profile.jpg" alt="프로필사진">
+      </div>
+      <div id="profile_info">
+        <div id="id">
+          pns
+          <i class="fas fa-cog"></i>
+        </div>
         <button>프로필 편집</button>
       </div>
     </div>    
@@ -20,6 +31,7 @@
         <strong>
           박노상(Nohsang Pak)
         </strong><br>
+        
         백수
       </p>
       <p>
@@ -28,49 +40,70 @@
         </a>
       </p>
     </div>
-    <div>
+    <div id="highlight_area">
       <div class="highlight"> 
-        <div>
-          <img src="./image/cat01.jpg" alt="cat01" height="35px">
+        <div class="highlight_pic">
+          <img class="circle_pic" src="./image/cat01.jpg" alt="cat01">
         </div>
         <div>
           😎
         </div>
       </div>
       <div class="highlight">
-        <div>
-          <img src="./image/cat02.jpg" alt="cat02" height="35px">
+        <div class="highlight_pic">
+          <img class="circle_pic" src="./image/cat02.jpg" alt="cat02">
         </div>
         <div>
           😍
         </div>
       </div>
+      <div></div>
     </div>
-    <div>
-      <div>
+    <div id="star_bar">
+      <div class="star">
         게시물<br>
         111
       </div>
-      <div>
+      <div class="star">
         팔로워<br>
         222
       </div>
-      <div>
+      <div class="star">
         팔로우<br>
         333
       </div>
     </div>
-    <div>아이콘이 들어갈 자리</div>
-    <div>
-      <img src="./image/cat03.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat04.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat05.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat06.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat07.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat08.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat09.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat10.jpg" alt="thumbnail" width="32%">
-      <img src="./image/cat11.jpg" alt="thumbnail" width="32%">
+    <div id="sub_icons">
+      <div class="selected">
+        <i class="fas fa-border-all"></i>
+      </div>
+      <div>
+        <i class="fas fa-film"></i>
+      </div>
+      <div>
+        <i class="fas fa-play-circle"></i>
+      </div>
+      <div>
+        <i class="fas fa-bookmark"></i>
+      </div>
+      <div>
+        <i class="fas fa-user-tag"></i>
+      </div>
     </div>
+    <div>
+      <div class="thumbnail_grid">
+        <img src="./image/cat03.jpg" class="thumbnail">
+        <img src="./image/cat04.jpg" class="thumbnail">
+        <img src="./image/cat03.jpg" class="thumbnail">
+      </div>
+      <div class="thumbnail_grid">
+        <img src="./image/cat03.jpg" class="thumbnail">
+        <img src="./image/cat04.jpg" class="thumbnail">
+        <img src="./image/cat03.jpg" class="thumbnail">
+      </div>
+      <div class="thumbnail_grid">
+        <img src="./image/cat03.jpg" class="thumbnail">
+        <img src="./image/cat04.jpg" class="thumbnail">
+        <img src="./image/cat03.jpg" class="thumbnail">
   </body>
 </html>
